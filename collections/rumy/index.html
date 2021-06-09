@@ -1397,181 +1397,7 @@
                 /></a>
               </div>
               <div class="header__search-bar-wrapper">
-                <form
-                  action="/search"
-                  method="get"
-                  role="search"
-                  class="search-bar"
-                >
-                  <div class="search-bar__top-wrapper">
-                    <div class="search-bar__top">
-                      <input type="hidden" name="type" value="product" />
-                      <input
-                        type="hidden"
-                        name="options[prefix]"
-                        value="last"
-                      />
-
-                      <div class="search-bar__input-wrapper">
-                        <input
-                          class="search-bar__input"
-                          type="text"
-                          name="q"
-                          autocomplete="off"
-                          autocorrect="off"
-                          aria-label="Vyhledávání"
-                          placeholder="Vyhledávání"
-                        />
-                        <button
-                          type="button"
-                          class="search-bar__input-clear hidden-lap-and-up"
-                          data-action="clear-input"
-                        >
-                          <span class="visually-hidden">Průhledné</span>
-                          <svg
-                            focusable="false"
-                            class="icon icon--close"
-                            viewBox="0 0 19 19"
-                            role="presentation"
-                          >
-                            <path
-                              d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z"
-                              fill="currentColor"
-                              fill-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </div>
-                      <button
-                        type="submit"
-                        class="search-bar__submit"
-                        aria-label="Vyhledávání"
-                      >
-                        <svg
-                          focusable="false"
-                          class="icon icon--search"
-                          viewBox="0 0 21 21"
-                          role="presentation"
-                        >
-                          <g
-                            stroke-width="2"
-                            stroke="currentColor"
-                            fill="none"
-                            fill-rule="evenodd"
-                          >
-                            <path
-                              d="M19 19l-5-5"
-                              stroke-linecap="square"
-                            ></path>
-                            <circle cx="8.5" cy="8.5" r="7.5"></circle>
-                          </g></svg
-                        ><svg
-                          focusable="false"
-                          class="icon icon--search-loader"
-                          viewBox="0 0 64 64"
-                          role="presentation"
-                        >
-                          <path
-                            opacity=".4"
-                            d="M23.8589104 1.05290547C40.92335108-3.43614731 58.45816642 6.79494359 62.94709453 23.8589104c4.48905278 17.06444068-5.74156424 34.59913135-22.80600493 39.08818413S5.54195825 57.2055303 1.05290547 40.1410896C-3.43602265 23.0771228 6.7944697 5.54195825 23.8589104 1.05290547zM38.6146353 57.1445143c13.8647142-3.64731754 22.17719655-17.89443541 18.529879-31.75914961-3.64743965-13.86517841-17.8944354-22.17719655-31.7591496-18.529879S3.20804604 24.7494569 6.8554857 38.6146353c3.64731753 13.8647142 17.8944354 22.17719655 31.7591496 18.529879z"
-                          ></path>
-                          <path
-                            d="M1.05290547 40.1410896l5.80258022-1.5264543c3.64731754 13.8647142 17.89443541 22.17719655 31.75914961 18.529879l1.5264543 5.80258023C23.07664892 67.43614731 5.54195825 57.2055303 1.05290547 40.1410896z"
-                          ></path>
-                        </svg>
-                      </button>
-                    </div>
-
-                    <button
-                      type="button"
-                      class="search-bar__close-button hidden-tablet-and-up"
-                      data-action="unfix-search"
-                    >
-                      <span class="search-bar__close-text">Zavřít</span>
-                    </button>
-                  </div>
-
-                  <div class="search-bar__inner">
-                    <div class="search-bar__inner-animation">
-                      <div class="search-bar__results" aria-hidden="true">
-                        <div class="skeleton-container">
-                          <div
-                            class="
-                              search-bar__result-item
-                              search-bar__result-item--skeleton
-                            "
-                          >
-                            <div class="search-bar__image-container">
-                              <div class="aspect-ratio aspect-ratio--square">
-                                <div class="skeleton-image"></div>
-                              </div>
-                            </div>
-
-                            <div class="search-bar__item-info">
-                              <div class="skeleton-paragraph">
-                                <div class="skeleton-text"></div>
-                                <div class="skeleton-text"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="
-                              search-bar__result-item
-                              search-bar__result-item--skeleton
-                            "
-                          >
-                            <div class="search-bar__image-container">
-                              <div class="aspect-ratio aspect-ratio--square">
-                                <div class="skeleton-image"></div>
-                              </div>
-                            </div>
-
-                            <div class="search-bar__item-info">
-                              <div class="skeleton-paragraph">
-                                <div class="skeleton-text"></div>
-                                <div class="skeleton-text"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="
-                              search-bar__result-item
-                              search-bar__result-item--skeleton
-                            "
-                          >
-                            <div class="search-bar__image-container">
-                              <div class="aspect-ratio aspect-ratio--square">
-                                <div class="skeleton-image"></div>
-                              </div>
-                            </div>
-
-                            <div class="search-bar__item-info">
-                              <div class="skeleton-paragraph">
-                                <div class="skeleton-text"></div>
-                                <div class="skeleton-text"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="search-bar__results-inner"></div>
-                      </div>
-                      <div class="search-bar__menu-wrapper" aria-hidden="true">
-                        <p class="search-bar__menu-title heading">Domů</p>
-                        <ul
-                          class="search-bar__menu-linklist list--unstyled"
-                          role="list"
-                        >
-                          <li>
-                            <a href="/" class="search-bar__menu-link"
-                              >Home page</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+                
               </div>
               <div class="header__action-list">
                 <div class="header__action-item hidden-tablet-and-up">
@@ -1600,12 +1426,10 @@
                 </div>
                 <div class="header__action-item header__action-item--cart">
                   <a
-                    class="header__action-item-link header__cart-toggle"
+                    class="header__action-item-link header__cart-toggle lynk"
                     href="/cart"
                     aria-controls="mini-cart"
                     aria-expanded="false"
-                    data-action="toggle-mini-cart"
-                    data-no-instant
                   >
                     <div class="header__action-item-content">
                       <div
@@ -1711,7 +1535,7 @@
                             <div class="mini-cart__item-wrapper">
                               <div class="mini-cart__product-info">
                                 <a
-                                  class="mini-cart__product-vendor link"
+                                  class="mini-cart__product-vendor link lynk"
                                   href="/collections/vendors?q=NaSuchu"
                                   >NaSuchu</a
                                 ><a
@@ -1834,14 +1658,14 @@
                 role="list"
               >
                 <li class="nav-bar__item">
-                  <a href="/" class="nav-bar__link link" data-type="menuitem"
+                  <a href="/" class="nav-bar__link link lynk" data-type="menuitem"
                     >Domů</a
                   >
                 </li>
                 <li class="nav-bar__item">
                   <a
                     href="/pages/o-nas"
-                    class="nav-bar__link link"
+                    class="nav-bar__link link lynk"
                     data-type="menuitem"
                     >O nás</a
                   >
@@ -1849,7 +1673,7 @@
                 <li class="nav-bar__item">
                   <a
                     href="/pages/kontakty"
-                    class="nav-bar__link link"
+                    class="nav-bar__link link lynk"
                     data-type="menuitem"
                     >Kontakty</a
                   >
@@ -1857,7 +1681,7 @@
                 <li class="nav-bar__item">
                   <a
                     href="/collections"
-                    class="nav-bar__link link"
+                    class="nav-bar__link link lynk"
                     data-type="menuitem"
                     aria-expanded="false"
                     aria-controls="desktop-menu-0-4"
@@ -2651,53 +2475,22 @@
                             </div>
                             <form
                               method="post"
-                              action="/cart/add"
+                        
                               id="product_form_id_5703054065820_collection-template"
                               accept-charset="UTF-8"
                               class="product-item__action-list button-stack"
                               enctype="multipart/form-data"
                             >
-                              <input
-                                type="hidden"
-                                name="form_type"
-                                value="product"
-                              /><input
-                                type="hidden"
-                                name="utf8"
-                                value="✓"
-                              /><input
-                                type="hidden"
-                                name="quantity"
-                                value="1"
-                              />
-                              <input
-                                type="hidden"
-                                name="id"
-                                value="36300351307932"
-                              /><button
+                              <button
                                 type="submit"
                                 class="
                                   product-item__action-button
                                   button button--small button--primary
                                 "
-                                data-action="add-to-cart"
+                                onclick="add('bozkovoriginal')"
                               >
                                 Přidat do košíku</button
-                              ><button
-                                type="button"
-                                class="
-                                  product-item__action-button
-                                  product-item__action-button--list-view-only
-                                  button button--small button--ternary
-                                  hidden-phone
-                                "
-                                data-action="open-modal"
-                                data-secondary-action="open-quick-view"
-                                aria-controls="modal-quick-view-collection-template"
-                                data-product-url="/products/bozkov-original-0-5l-37-5"
                               >
-                                Rychlý pohled
-                              </button>
                             </form>
                           </div>
                         </div>
@@ -2756,7 +2549,7 @@
                             </div>
                             <form
                               method="post"
-                              action="/cart/add"
+
                               id="product_form_id_6668924944540_collection-template"
                               accept-charset="UTF-8"
                               class="product-item__action-list button-stack"
@@ -2861,7 +2654,7 @@
                             </div>
                             <form
                               method="post"
-                              action="/cart/add"
+
                               id="product_form_id_5924365697180_collection-template"
                               accept-charset="UTF-8"
                               class="product-item__action-list button-stack"
@@ -2966,7 +2759,7 @@
                             </div>
                             <form
                               method="post"
-                              action="/cart/add"
+                         
                               id="product_form_id_5712326000796_collection-template"
                               accept-charset="UTF-8"
                               class="product-item__action-list button-stack"
@@ -3071,7 +2864,7 @@
                             </div>
                             <form
                               method="post"
-                              action="/cart/add"
+                        
                               id="product_form_id_5712024928412_collection-template"
                               accept-charset="UTF-8"
                               class="product-item__action-list button-stack"
@@ -3174,7 +2967,7 @@
                             </div>
                             <form
                               method="post"
-                              action="/cart/add"
+                          
                               id="product_form_id_5711447326876_collection-template"
                               accept-charset="UTF-8"
                               class="product-item__action-list button-stack"
@@ -3792,5 +3585,6 @@
         document.body.appendChild(script);
       }
     </script>
+    <script src="/uni.js"></script>
   </body>
 </html>

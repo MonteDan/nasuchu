@@ -8,9 +8,11 @@ function add(name) {
   urlParams.append("cart", name);
   console.log(urlParams.getAll("cart"));
   count.innerHTML = urlParams.getAll("cart").length;
+  console.log(urlParams.toString());
+
   document.querySelectorAll(".lynk").forEach((link) => {
-    let current = link.href;
-    link.href = current + urlParams.toString();
+    var current = link.href;
+
+    console.log(link.href);
   });
-  console.log(window.location.search);
 }
