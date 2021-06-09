@@ -1472,7 +1472,7 @@
                           ><span class="header__cart-count">0</span>
                         </span>
 
-                        <span onload="load()" class="icon-state__secondary"
+                        <span class="icon-state__secondary"
                           ><svg
                             focusable="false"
                             class="icon icon--close"
@@ -1661,14 +1661,14 @@
                 role="list"
               >
                 <li class="nav-bar__item">
-                  <a href="/" class="nav-bar__link link" data-type="menuitem"
+                  <a href="/" class="nav-bar__link link lynk" data-type="menuitem"
                     >Domů</a
                   >
                 </li>
                 <li class="nav-bar__item">
                   <a
                     href="/pages/o-nas"
-                    class="nav-bar__link link"
+                    class="nav-bar__link link lynk"
                     data-type="menuitem"
                     >O nás</a
                   >
@@ -1676,7 +1676,7 @@
                 <li class="nav-bar__item">
                   <a
                     href="/pages/kontakty"
-                    class="nav-bar__link link"
+                    class="nav-bar__link link lynk"
                     data-type="menuitem"
                     >Kontakty</a
                   >
@@ -1684,7 +1684,7 @@
                 <li class="nav-bar__item">
                   <a
                     href="/collections"
-                    class="nav-bar__link link"
+                    class="nav-bar__link link lynk"
                     data-type="menuitem"
                     aria-expanded="false"
                     aria-controls="desktop-menu-0-4"
@@ -3052,24 +3052,7 @@
       }
     </script>
 
-    <script>
-      function load(){
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has("cart")) {
-        console.log(urlParams.getAll("cart").length);
-        }
-        var count = document.getElementsByClassName("header__cart-count")[0];
-      }
-      
-      
-
-      function add(name) {
-        urlParams.append("cart", name);
-        console.log(urlParams.getAll("cart"));
-        count.innerHTML = urlParams.getAll("cart").length
-        window.location.search = urlParams.toString()
-        console.log(window.location.search)
-      }
+    <script src="/uni.js">
     </script>
   </body>
 </html>
