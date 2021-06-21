@@ -1,0 +1,11 @@
+{{partial "header.html" .}}
+  {{ range .Paginator.Pages }}
+    <a href="{{.Permalink}}">
+      <h1>{{.Title}}</h1>
+      <img src="{{.Params.image}}" alt="">
+      <p>
+        {{.Params.price}}
+      </p>
+    </a>
+  {{ end }}
+{{ partial "footer.html" . }}
