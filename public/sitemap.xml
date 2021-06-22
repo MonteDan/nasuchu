@@ -2,15 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/bozkov_original/</loc>
+    <loc>http://example.org/posts/rum/bacardi_carta_blanca/</loc>
+  </url><url>
+    <loc>http://example.org/posts/rum/bozkov_original/</loc>
+  </url><url>
+    <loc>http://example.org/posts/rum/bozkov_republica/</loc>
+  </url><url>
+    <loc>http://example.org/posts/rum/captain_morgan_1l/</loc>
+  </url><url>
+    <loc>http://example.org/posts/rum/captain_morgan_700/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
-    <loc>http://example.org/posts/heffron_panama_rum/</loc>
+    <loc>http://example.org/posts/rum/don_papa/</loc>
   </url><url>
-    <loc>http://example.org/posts/jack_daniels_fire/</loc>
+    <loc>http://example.org/posts/rum/heffron_panama_rum/</loc>
   </url><url>
-    <loc>http://example.org/posts/jack_daniels_number_7/</loc>
+    <loc>http://example.org/posts/whisky/jack_daniels_apple/</loc>
+  </url><url>
+    <loc>http://example.org/posts/whisky/jack_daniels_fire/</loc>
+  </url><url>
+    <loc>http://example.org/posts/whisky/jack_daniels_honey/</loc>
+  </url><url>
+    <loc>http://example.org/posts/whisky/jack_daniels_number_7/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/mionetto_proseccon/</loc>
   </url><url>
     <loc>http://example.org/</loc>
   </url><url>
@@ -20,8 +36,8 @@
   </url><url>
     <loc>http://example.org/tags/</loc>
   </url><url>
-    <loc>http://example.org/posts/test/</loc>
-  </url><url>
     <loc>http://example.org/tags/whisky/</loc>
+  </url><url>
+    <loc>http://example.org/tags/%C5%A1umiv%C3%A1-v%C3%ADna/</loc>
   </url>
 </urlset>

@@ -1,5 +1,5 @@
 ---
-title: "Bozkov original"
+title: "Božkov Originál 0,5l 37,5%"
 image: "https://imgur.com/3StdBrL"
 price: 169,00
 tags: ["Rum"]

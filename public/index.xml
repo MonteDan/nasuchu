@@ -7,48 +7,118 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bozkov original</title>
-      <link>http://example.org/posts/bozkov_original/</link>
+      <title>Bacardi Carta Blanca 0,7l 37,5%</title>
+      <link>http://example.org/posts/rum/bacardi_carta_blanca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/bozkov_original/</guid>
+      <guid>http://example.org/posts/rum/bacardi_carta_blanca/</guid>
+      <description>Rum produkce portorické rodinné firmy. Po prvních ochutnání cítíte jemnou chuť po mandlích, vanilky a meruněk. Je velice vhodný pro přípravu míchaných nápojů.
+Doporučená kombinace: Coca cola</description>
+    </item>
+    
+    <item>
+      <title>Božkov Originál 0,5l 37,5%</title>
+      <link>http://example.org/posts/rum/bozkov_original/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/rum/bozkov_original/</guid>
       <description>Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.</description>
     </item>
     
     <item>
-      <title>Heffron panama rum</title>
-      <link>http://example.org/posts/heffron_panama_rum/</link>
+      <title>Božkov Republica Exclusive 0,5l 38%</title>
+      <link>http://example.org/posts/rum/bozkov_republica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/heffron_panama_rum/</guid>
-      <description>Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.</description>
+      <guid>http://example.org/posts/rum/bozkov_republica/</guid>
+      <description>Jako poctu našeho státu a stého výročí naší země se zrodil nejnovější sourozenec do rodiny Božkov. Tmavý rum Republica s tóny vanilky, sušeného ovoce a oříšků se hned stal hitem večírků.
+Doporučené kombinace: Coca cola</description>
     </item>
     
     <item>
-      <title>Jack daniels fire</title>
-      <link>http://example.org/posts/jack_daniels_fire/</link>
+      <title>Captain Morgan Original Spiced Gold 35% 1l</title>
+      <link>http://example.org/posts/rum/captain_morgan_1l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/jack_daniels_fire/</guid>
-      <description>Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.</description>
+      <guid>http://example.org/posts/rum/captain_morgan_1l/</guid>
+      <description>Je libo to pravé do vašich koktejlů? Jamajka má odpověď. Tento rum zrající v dubových sudech po bourbonu je přesně to pravé.
+Doporučené kombinace: Coca cola</description>
     </item>
     
     <item>
-      <title>Jack daniels no 7</title>
-      <link>http://example.org/posts/jack_daniels_number_7/</link>
+      <title>Captain Morgan Original Spiced Gold 35% 700ml</title>
+      <link>http://example.org/posts/rum/captain_morgan_700/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/jack_daniels_number_7/</guid>
-      <description>Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.</description>
+      <guid>http://example.org/posts/rum/captain_morgan_700/</guid>
+      <description>Je libo to pravé do vašich koktejlů? Jamajka má odpověď. Tento rum zrající v dubových sudech po bourbonu je přesně to pravé.
+Doporučené kombinace: Coca cola</description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>http://example.org/posts/test/</link>
+      <title>Don Papa 7y 0,7l 40%</title>
+      <link>http://example.org/posts/rum/don_papa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/test/</guid>
-      <description>Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.</description>
+      <guid>http://example.org/posts/rum/don_papa/</guid>
+      <description>Prémiový rum zrající 7 let v dubových sudech po bourbonu. Na Filipínách pro výrobu vybírají tu nejsladší cukrovou třtinu. Chuť vám zpříjemní tóny vanilky, pomeranče a medu.</description>
+    </item>
+    
+    <item>
+      <title>Heffron Panama Rum 5y 0,5l 38%</title>
+      <link>http://example.org/posts/rum/heffron_panama_rum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/rum/heffron_panama_rum/</guid>
+      <description>5 let zrání v dubových sudech v tropickém Karibiku dopřává krásnou a výraznou chuť. Po ochutnání je cítit nádech vanilky a karamelu.</description>
+    </item>
+    
+    <item>
+      <title>Jack Daniel&#39;s Apple 0,7l 35%</title>
+      <link>http://example.org/posts/whisky/jack_daniels_apple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/whisky/jack_daniels_apple/</guid>
+      <description>Nejnovější příchuť z továrny Jack Daniel&amp;rsquo;s snoubí klasickou dřevinatou příchuť s jemným tónem vanilky a doplněný o likér ze zelených jablek. Tímto spojením vznikl lahodný nápoj.</description>
+    </item>
+    
+    <item>
+      <title>Jack Daniel&#39;s Fire 0,7l 35%</title>
+      <link>http://example.org/posts/whisky/jack_daniels_fire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/whisky/jack_daniels_fire/</guid>
+      <description>Sleva se automaticky odečte v košíku nebo při telefonickém objednání.
+Další Jack s příchutí, tentokrát se skořicí. Sladká chuť skořice doplňuje tu ostrou a zakončuje to lehký nádech vanilky. Tento likér je nejlepší namražený při teplotě -18°C.
+Doporučené kombinace: jablečný džus</description>
+    </item>
+    
+    <item>
+      <title>Jack Daniel&#39;s Honey 0,7l 35%</title>
+      <link>http://example.org/posts/whisky/jack_daniels_honey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/whisky/jack_daniels_honey/</guid>
+      <description>Spojení Jacka Daniel&amp;rsquo;s a medového likéru dala vzniknout této nezaměnitelná chuti.
+Doporučená kombinace: Coca Cola, jablečný džus</description>
+    </item>
+    
+    <item>
+      <title>Jack Daniel&#39;s No.7 0,7l 40%</title>
+      <link>http://example.org/posts/whisky/jack_daniels_number_7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/whisky/jack_daniels_number_7/</guid>
+      <description>Legendární sedmička od amerického výrobce whisky z Tennesse. Klasickým postupem je také filtrace přes tři metry vysokou vrstvu rozžhavených uhlíků cukrového javoru.</description>
+    </item>
+    
+    <item>
+      <title>Mionetto Prosecco DOC Treviso Frizzante 0,75l 11%</title>
+      <link>http://example.org/posts/sumiva_vina/mionetto_proseccon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/sumiva_vina/mionetto_proseccon/</guid>
+      <description>Legendární sedmička od amerického výrobce whisky z Tennesse. Klasickým postupem je také filtrace přes tři metry vysokou vrstvu rozžhavených uhlíků cukrového javoru.</description>
     </item>
     
   </channel>
