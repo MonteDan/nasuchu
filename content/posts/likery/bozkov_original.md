@@ -1,7 +1,8 @@
 ---
 title: "Bozkov original"
 image: "https://imgur.com/3StdBrL"
-price: 169,00
+price: 169
+priceshown: "169,00"
 tags: ["Rum"]
 # Kontrola toho jestli je dostupný
 draft: false

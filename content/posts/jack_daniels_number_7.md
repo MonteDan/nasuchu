@@ -1,7 +1,8 @@
 ---
 title: "Jack daniels no 7"
 image: "https://imgur.com/daMOXT0"
-price: 549,00
+priceshown: "549,00"
+price: 549
 tags: ["Whisky"]
 # Kontrola toho jestli je dostupný
 draft: false
