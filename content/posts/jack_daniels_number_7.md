@@ -1,9 +1,9 @@
 ---
-title: "Božkov Originál 0,5l 37,5%"
-image: "https://imgur.com/3StdBrL"
-price: 169
-priceshown: "169,00"
-tags: ["Rum"]
+title: "Jack daniels no 7"
+image: "https://imgur.com/daMOXT0"
+priceshown: "549,00"
+price: 549
+tags: ["Whisky"]
 # Kontrola toho jestli je dostupný
 draft: false
 ---

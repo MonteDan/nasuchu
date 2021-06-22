@@ -1,8 +1,8 @@
 ---
-title: "Božkov Originál 0,5l 37,5%"
-image: "https://imgur.com/3StdBrL"
-price: 169
-priceshown: "169,00"
+title: "Heffron panama rum"
+image: "https://imgur.com/6EwHzeQ"
+price: 269
+priceshown: "269,00"
 tags: ["Rum"]
 # Kontrola toho jestli je dostupný
 draft: false
