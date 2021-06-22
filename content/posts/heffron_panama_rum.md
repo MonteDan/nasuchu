@@ -1,6 +1,6 @@
 ---
 title: "Heffron panama rum"
-image: "https://cdn.shopify.com/s/files/1/0492/6295/2604/products/Produktynasuchu_400x.png?v=1618955452"
+image: "https://imgur.com/6EwHzeQ"
 price: 269,00
 tags: ["Rum"]
 # Kontrola toho jestli je dostupný

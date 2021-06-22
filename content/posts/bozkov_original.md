@@ -1,6 +1,6 @@
 ---
 title: "Bozkov original"
-image: "https://cdn.shopify.com/s/files/1/0492/6295/2604/products/49_500x.png?v=1614898806"
+image: "https://imgur.com/3StdBrL"
 price: 169,00
 tags: ["Rum"]
 # Kontrola toho jestli je dostupný

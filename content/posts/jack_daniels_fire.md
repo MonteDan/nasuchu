@@ -1,8 +1,8 @@
 ---
 title: "Jack daniels fire"
-image: "https://cdn.shopify.com/s/files/1/0492/6295/2604/products/43_400x.png?v=1614900344"
+image: "https://imgur.com/C5zFicy"
 price: 549,00
-tags: ["Whisky"] 
+tags: ["Whisky"]
 # Kontrola toho jestli je dostupný
 draft: false
 ---
