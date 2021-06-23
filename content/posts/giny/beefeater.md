@@ -1,7 +1,6 @@
 ---
 title: "Beefeater Gin 0,7l 40%"
 image: "https://imgur.com/hazyamn"
-price: 449,00
 price: 449
 priceshown: "449,00"
 tags: ["Giny"] 
