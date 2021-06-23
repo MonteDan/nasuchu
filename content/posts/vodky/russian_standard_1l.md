@@ -1,6 +1,6 @@
 ---
 title: "Russian Standard Original 40% 1l"
-image: "https://imgur.com/1zMPnkf"
+image: "https://imgur.com/mI7l8Wy"
 price: 429
 priceshown: "429,00"
 tags: ["Vodky"]
@@ -8,6 +8,7 @@ tags: ["Vodky"]
 draft: false
 ---
 
-Vodka se už v názvu pyšní svými 42% alkoholu. Kombinací tří druhů lihů: melasového, pšeničného a vinného, vzniká úžasná a vyvážená chuť.
+Co jiného z ruska než vodka. Značka se drží svých neměnných standardů už od svého založení. 
 
-Doporučené kombinace: Džus
+**Doporučené kombinace:** soda, led, džus
+

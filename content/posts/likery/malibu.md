@@ -1,6 +1,6 @@
 ---
 title: "Malibu 0,7l 21%"
-image: "https://imgur.com/gQOghU1"
+image: "https://imgur.com/JPCV6Cg"
 price: 389
 priceshown: "389,00"
 tags: ["Likéry"]

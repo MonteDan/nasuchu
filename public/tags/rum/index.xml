@@ -18,6 +18,15 @@ Doporučená kombinace: Coca cola</description>
     
     <item>
       <title>Božkov Originál 0,5l 37,5%</title>
+      <link>http://example.org/posts/likery/bozkov_original/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/likery/bozkov_original/</guid>
+      <description>Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.</description>
+    </item>
+    
+    <item>
+      <title>Božkov Originál 0,5l 37,5%</title>
       <link>http://example.org/posts/rum/bozkov_original/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

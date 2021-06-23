@@ -9,3 +9,5 @@ draft: false
 ---
 
 Poznávacím znamením Božkovu Originál je decentně zlatavá barva, charakteristická vůně a chuť.
+
+Tradice od roku 1920.
