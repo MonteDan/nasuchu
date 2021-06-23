@@ -1,7 +1,8 @@
 ---
 title: "Božkov Republica Exclusive 0,5l 38%"
 image: "https://imgur.com/O5KwwCV"
-price: 319,00
+price: 319
+priceshown: "319,00"
 tags: ["Rum"] 
 # Kontrola toho jestli je dostupný
 draft: false

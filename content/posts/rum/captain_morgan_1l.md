@@ -1,7 +1,8 @@
 ---
 title: "Captain Morgan Original Spiced Gold 35% 1l"
 image: "https://imgur.com/NMdib6i"
-price: 349,00
+price: 349
+priceshown: "349,00"
 tags: ["Rum"] 
 # Kontrola toho jestli je dostupný
 draft: false

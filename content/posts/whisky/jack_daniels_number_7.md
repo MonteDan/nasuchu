@@ -1,7 +1,8 @@
 ---
 title: "Jack Daniel's No.7 0,7l 40%"
 image: "https://imgur.com/daMOXT0"
-price: 549,00
+price: 549
+priceshown: "549,00"
 tags: ["Whisky"]
 # Kontrola toho jestli je dostupný
 draft: false

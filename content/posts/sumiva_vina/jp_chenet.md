@@ -1,7 +1,8 @@
 ---
 title: "J.P. Chenet Ice Edition Rosé 1,5 l"
 image: "https://imgur.com/VgoxW9c"
-price: 399,00
+price: 399
+priceshown: "399,00"
 tags: ["Šumivá Vína"] 
 # Kontrola toho jestli je dostupný
 draft: false

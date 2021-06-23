@@ -1,7 +1,8 @@
 ---
 title: "Bohemia Sekt Demi Sec 0,75l 11%"
 image: "https://imgur.com/mJcK7NC"
-price: 189.00
+price: 189
+priceshown: "189,00"
 tags: ["Šumivá Vína"] 
 # Kontrola toho jestli je dostupný
 draft: false

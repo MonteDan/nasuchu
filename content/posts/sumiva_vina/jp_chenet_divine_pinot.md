@@ -1,7 +1,8 @@
 ---
 title: "J.P. Chenet Divine Pinot Noir Rosé 0,75 l 11,5%"
 image: "https://imgur.com/WmBtRi0"
-price: 349,00
+price: 349
+priceshown: "349,00"
 tags: ["Šumivá Vína"] 
 # Kontrola toho jestli je dostupný
 draft: false

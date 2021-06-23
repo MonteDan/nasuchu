@@ -1,7 +1,8 @@
 ---
 title: "Jack Daniel's Apple 0,7l 35%"
 image: "https://imgur.com/nswOSI3"
-price: 549,00
+price: 549
+priceshown: "549,00"
 tags: ["Whisky"] 
 # Kontrola toho jestli je dostupný
 draft: false

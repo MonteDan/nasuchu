@@ -1,7 +1,8 @@
 ---
 title: "Heffron Panama Rum 5y 0,5l 38%"
 image: "https://imgur.com/6EwHzeQ"
-price: 269,00
+price: 269
+priceshown: "269,00" 
 tags: ["Rum"]
 # Kontrola toho jestli je dostupný
 draft: false

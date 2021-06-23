@@ -1,7 +1,8 @@
 ---
 title: "Don Papa 7y 0,7l 40%"
 image: "https://i.imgur.com/SxLSNJG"
-price: 899,00
+price: 899
+priceshown: "899,00"
 tags: ["Rum"] 
 # Kontrola toho jestli je dostupný
 draft: false

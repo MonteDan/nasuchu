@@ -2,6 +2,7 @@
 title: "Prosecco Frivolo Frizzante 0,75l 10,5%"
 image: "https://imgur.com/xmtKxJ1"
 price: 119,00
+priceshown: "119,00"
 tags: ["Šumivá Vína"] 
 # Kontrola toho jestli je dostupný
 draft: false
