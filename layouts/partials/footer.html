@@ -6,14 +6,24 @@
       ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }), 
   {});
   */
-  Cookies.set("names", JSON.stringify({}))
-  function add(Id){
+  
+  try {
+      let dict = JSON.parse(Cookies.get("names"));
+  }
+  catch(err) {
+    Cookies.set("names", JSON.stringify({}))
     let dict = JSON.parse(Cookies.get("names"));
+  }
+
+  function add(title, pic, price, priceshown){
+
+    let dict = JSON.parse(Cookies.get("names"));
+    
     try {
-      dict[Id] += 1;
+      dict[title][0] += 1;
     }
     catch(err) {
-      dict[Id] = 1;
+      dict[title] = [1, pic, price, priceshown];
     }
 
     Cookies.set("names", JSON.stringify(dict));

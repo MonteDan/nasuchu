@@ -3,5 +3,5 @@
   {{.Title}}
   {{.Content}}
   {{.Params.priceshown}},-
-  <button onClick="add({{.Title}})">Přidat do košíku</button>
+  <button onClick="add({{.Title}},{{.Params.image}},{{.Params.price}},{{.Params.priceshown}})">Přidat do košíku</button>
 {{ partial "footer.html" . }}

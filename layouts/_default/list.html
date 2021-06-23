@@ -8,7 +8,7 @@
       </p>
       
     </a>
-    <button onClick="add({{.Params.Title}})">Přidat do košíku</button>
+    <button onClick="add({{.Title}},{{.Params.image}},{{.Params.price}},{{.Params.priceshown}})">Přidat do košíku</button>
   {{ end }}
   {{ template "_internal/pagination.html" . }}
 {{ partial "footer.html" . }}
