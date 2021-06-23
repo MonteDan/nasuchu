@@ -8,6 +8,14 @@
   <title>Document</title>
 </head>
 <body>
+  <nav>
+    Tohle je navigace
+
+    <a href="/posts/">Produkty</a>
+    <br>
+    <a href="./cart.html">Košík</a>
+    
+  </nav>
   <div id="container"></div>
 
   <script>
@@ -38,16 +46,28 @@
       catch(err) {
         dict[title] = [1, pic, price, priceshown];
       }
-  
-      Cookies.set("names", JSON.stringify(dict));
-      console.log(document.cookie)
       refresh()
+      Cookies.set("names", JSON.stringify(dict));
     }
+
+    function dec(title){
+      var dict = JSON.parse(Cookies.get("names"));
+      if (dict[title][0] == 0) {
+        dict[title][0] = 0
+      }
+      else {
+        dict[title][0] -= 1;
+      }
+      refresh();
+      Cookies.set("names", JSON.stringify(dict));
+    }
+
     function refresh() {
       container.innerHTML = ""
       Object.keys(dict).map(function (key, value) {
-        container.innerHTML = "<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`
-        console.log(`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`)
+        container.innerHTML += "<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`
+        console.log("<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`)
+        return
     })
     }
     refresh()
