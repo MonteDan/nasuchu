@@ -7,3 +7,8 @@ tags: ["Giny"]
 # Kontrola toho jestli je dostupný
 draft: false
 ---
+
+
+Prémiový gin z Londýna, který se zakládá na tradiční receptuře dostal nový kabát. Gin s nádechem jahody.
+
+Doporučené kombinace: Kinley Bitter Rose

@@ -1,12 +1,25 @@
 {{partial "header.html" .}}
+<div class="row">
   {{ range .Paginator.Pages }}
-    <a href="{{.Permalink}}">
-      <h1>{{.Title}}</h1>
-      <img src="{{.Params.image}}.png" alt="">
-      <p>
-        {{.Params.price}}
-      </p>
-    </a>
-  {{ end }}
-  {{ template "_internal/pagination.html" . }}
+  <div class="col s6 l3">
+    <div class="card hoverable">
+      <div class="card-image">
+        <img src="{{.Params.image}}.png">
+        <span class="card-title black-text">{{.Title}}</span>
+      </div>
+      <div class="card-content">
+        {{ range (.GetTerms "tags") }}
+        <a href="{{ .Permalink }}" class="chip cyan lighten-3 hoverable">{{ .LinkTitle }}</a><br>
+        {{end}}
+      <i>{{.Params.priceshown}}Kč</i><br>
+      <p>{{.Content}}</p>
+    </div>
+    <div class="card-action">
+      <a href="{{.Permalink}}">{{.Permalink}}</a>
+    </div>
+  </div>
+</div>
+{{ end }}
+</div>
+{{ template "_internal/pagination.html" . }}
 {{ partial "footer.html" . }}

@@ -2,39 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/tags/aperitivy/</loc>
+  </url><url>
+    <loc>http://example.org/posts/aperitivy/aperol_aperitivo/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vyhodne_balicky/aperol_spritz/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/ava_antirose/</loc>
+  </url><url>
     <loc>http://example.org/posts/rum/bacardi_carta_blanca/</loc>
+  </url><url>
+    <loc>http://example.org/posts/likery/becherovka_lemond/</loc>
+  </url><url>
+    <loc>http://example.org/posts/giny/beefeater_blood/</loc>
+  </url><url>
+    <loc>http://example.org/posts/giny/beefeater/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vyhodne_balicky/beefeatergin_tonik/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vyhodne_balicky/beefeaterpink_tonikrose/</loc>
+  </url><url>
+    <loc>http://example.org/posts/giny/beefeater_strawberry/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vodky/blend420_500ml/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vodky/blend42_1l/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/bohemia_sekt/</loc>
+  </url><url>
+    <loc>http://example.org/posts/likery/bozkov_original/</loc>
   </url><url>
     <loc>http://example.org/posts/rum/bozkov_original/</loc>
   </url><url>
+    <loc>http://example.org/posts/likery/bozkov_peprmint/</loc>
+  </url><url>
     <loc>http://example.org/posts/rum/bozkov_republica/</loc>
+  </url><url>
+    <loc>http://example.org/posts/piva/budvar6x/</loc>
   </url><url>
     <loc>http://example.org/posts/rum/captain_morgan_1l/</loc>
   </url><url>
     <loc>http://example.org/posts/rum/captain_morgan_700/</loc>
   </url><url>
+    <loc>http://example.org/posts/vyhodne_balicky/captain_s_colou/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/posts/darkove_sety/chivas_regal_2sklenice/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/cocacola/</loc>
+  </url><url>
+    <loc>http://example.org/posts/piva/corona6x/</loc>
   </url><url>
     <loc>http://example.org/posts/rum/don_papa/</loc>
   </url><url>
+    <loc>http://example.org/tags/d%C3%A1rkov%C3%A9-sety/</loc>
+  </url><url>
+    <loc>http://example.org/tags/giny/</loc>
+  </url><url>
     <loc>http://example.org/posts/rum/heffron_panama_rum/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/jp_chenet_divine/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/jp_chenet_divine_muscat/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/jp_chenet_divine_pinot/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/jp_chenet/</loc>
   </url><url>
     <loc>http://example.org/posts/whisky/jack_daniels_apple/</loc>
   </url><url>
     <loc>http://example.org/posts/whisky/jack_daniels_fire/</loc>
   </url><url>
+    <loc>http://example.org/posts/darkove_sety/jackdaniels_fire_2sklenice/</loc>
+  </url><url>
     <loc>http://example.org/posts/whisky/jack_daniels_honey/</loc>
   </url><url>
     <loc>http://example.org/posts/whisky/jack_daniels_number_7/</loc>
   </url><url>
+    <loc>http://example.org/posts/vyhodne_balicky/jagermeister_4xredbull/</loc>
+  </url><url>
+    <loc>http://example.org/posts/likery/jagermeister/</loc>
+  </url><url>
+    <loc>http://example.org/posts/darkove_sety/jagermeister_2panaky/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/kinley_ginger/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/kinley_lemon/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/kinley_rose/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/kinley_tonic/</loc>
+  </url><url>
+    <loc>http://example.org/posts/piva/krusovice6x/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/lays_chilli/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/lays_hot_chicken/</loc>
+  </url><url>
+    <loc>http://example.org/tags/lik%C3%A9ry/</loc>
+  </url><url>
+    <loc>http://example.org/posts/likery/malibu/</loc>
+  </url><url>
     <loc>http://example.org/posts/sumiva_vina/mionetto_proseccon/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vina/modry_portugal/</loc>
   </url><url>
     <loc>http://example.org/</loc>
   </url><url>
+    <loc>http://example.org/tags/nealkoholick%C3%A9-n%C3%A1poje/</loc>
+  </url><url>
+    <loc>http://example.org/posts/piva/pilsner_svetly/</loc>
+  </url><url>
+    <loc>http://example.org/tags/piva/</loc>
+  </url><url>
     <loc>http://example.org/posts/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/pringles_paprika/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/pringles_syr_cibule/</loc>
+  </url><url>
+    <loc>http://example.org/posts/sumiva_vina/prosseco_frivolo/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/redbull/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/relax_ananas/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/relax_jablko/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/relax_pomeranc/</loc>
   </url><url>
     <loc>http://example.org/tags/rum/</loc>
   </url><url>
+    <loc>http://example.org/posts/vodky/russian_standard_700ml/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vodky/russian_standard_1l/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vyhodne_balicky/russian_dzus/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vina/ryzlink_rynsky/</loc>
+  </url><url>
+    <loc>http://example.org/posts/tequily/sierra_gold/</loc>
+  </url><url>
+    <loc>http://example.org/posts/tequily/sierra_silver/</loc>
+  </url><url>
+    <loc>http://example.org/tags/snacky/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/sprite/</loc>
+  </url><url>
     <loc>http://example.org/tags/</loc>
+  </url><url>
+    <loc>http://example.org/tags/tequily/</loc>
+  </url><url>
+    <loc>http://example.org/posts/snacky/tiger/</loc>
+  </url><url>
+    <loc>http://example.org/posts/vina/tramin_cerveny/</loc>
+  </url><url>
+    <loc>http://example.org/tags/vodky/</loc>
+  </url><url>
+    <loc>http://example.org/tags/v%C3%ADna/</loc>
+  </url><url>
+    <loc>http://example.org/tags/v%C3%BDhodn%C3%A9-bal%C3%AD%C4%8Dky/</loc>
   </url><url>
     <loc>http://example.org/tags/whisky/</loc>
   </url><url>

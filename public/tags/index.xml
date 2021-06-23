@@ -7,11 +7,110 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Aperitivy</title>
+      <link>http://example.org/tags/aperitivy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/aperitivy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dárkové sety</title>
+      <link>http://example.org/tags/d%C3%A1rkov%C3%A9-sety/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/d%C3%A1rkov%C3%A9-sety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giny</title>
+      <link>http://example.org/tags/giny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/giny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Likéry</title>
+      <link>http://example.org/tags/lik%C3%A9ry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/lik%C3%A9ry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nealkoholické nápoje</title>
+      <link>http://example.org/tags/nealkoholick%C3%A9-n%C3%A1poje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/nealkoholick%C3%A9-n%C3%A1poje/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Piva</title>
+      <link>http://example.org/tags/piva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/piva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rum</title>
       <link>http://example.org/tags/rum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/tags/rum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snacky</title>
+      <link>http://example.org/tags/snacky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/snacky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tequily</title>
+      <link>http://example.org/tags/tequily/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/tequily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vodky</title>
+      <link>http://example.org/tags/vodky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/vodky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vína</title>
+      <link>http://example.org/tags/v%C3%ADna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/v%C3%ADna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Výhodné balíčky</title>
+      <link>http://example.org/tags/v%C3%BDhodn%C3%A9-bal%C3%AD%C4%8Dky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/v%C3%BDhodn%C3%A9-bal%C3%AD%C4%8Dky/</guid>
       <description></description>
     </item>
     
@@ -25,7 +124,7 @@
     </item>
     
     <item>
-      <title>Šumivá vína</title>
+      <title>Šumivá Vína</title>
       <link>http://example.org/tags/%C5%A1umiv%C3%A1-v%C3%ADna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

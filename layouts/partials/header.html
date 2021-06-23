@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Nasuchu.com</title>
+  <style>
+    .card {
+      min-height: 800px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
+
 <body>
   <nav>
-    Tohle je navigace
-    
+    {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+    <!--  
+    <div class="tagbutton row">
+      <a href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>" class="">{{$name}}</a>
+    </div>-->
+    <ul>
+      <li><a href="{{.RelPermalink}}">{{$name}}</a></li>
+    </ul>
+    {{end}}
+    {{end}}
   </nav>
