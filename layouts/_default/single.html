@@ -2,4 +2,6 @@
   <img src="{{.Params.image}}.png" alt="">
   {{.Title}}
   {{.Content}}
+  {{.Params.priceshown}},-
+  <button onClick="add({{.Title}})">Přidat do košíku</button>
 {{ partial "footer.html" . }}

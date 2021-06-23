@@ -1,3 +1,26 @@
+<script>
+  /*
+  var cooks = document.cookie.split(";")
+    .map(cookie => cookie.split("="))
+    .reduce((accumulator, [key, value]) =>
+      ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }), 
+  {});
+  */
+  Cookies.set("names", JSON.stringify({}))
+  function add(Id){
+    let dict = JSON.parse(Cookies.get("names"));
+    try {
+      dict[Id] += 1;
+    }
+    catch(err) {
+      dict[Id] = 1;
+    }
+
+    Cookies.set("names", JSON.stringify(dict));
+    console.log(document.cookie)
+  }
+</script>
+
 <footer>
 </footer>  
 </body>

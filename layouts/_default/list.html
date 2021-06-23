@@ -13,6 +13,7 @@
         {{end}}
       <i>{{.Params.priceshown}}Kč</i><br>
       <p>{{.Content}}</p>
+      <button type="button" name="button" class="button" onClick="add({{.Params.Title}})">Přidat do košíku</button>
     </div>
     <div class="card-action">
       <a href="{{.Permalink}}">{{.Permalink}}</a>
