@@ -17,6 +17,8 @@
     
   </nav>
   <div id="container"></div>
+  <a class="continue" href="./">Pokračovat v nákupu</a>
+  <a class="checkout" href="./checkout.html">Objednat</a>
 
   <script>
     /*
@@ -37,8 +39,7 @@
     }
 
     function add(title, pic, price, priceshown){
-
-      var dict = JSON.parse(Cookies.get("names"));
+      dict = JSON.parse(Cookies.get("names"));
       
       try {
         dict[title][0] += 1;
@@ -51,7 +52,7 @@
     }
 
     function dec(title){
-      var dict = JSON.parse(Cookies.get("names"));
+      dict = JSON.parse(Cookies.get("names"));
       if (dict[title][0] == 0) {
         dict[title][0] = 0
       }
@@ -64,11 +65,16 @@
 
     function refresh() {
       container.innerHTML = ""
-      Object.keys(dict).map(function (key, value) {
+      Object.keys(names).map(function (key, value) {
         container.innerHTML += "<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`
         console.log("<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`)
         return
-    })
+      })
+      let pr = 0;
+      Object.keys(names).map(function (key, value) {
+        pr += dict[key][0]*dict[key][1]
+      })
+      container.innerHTML += "<div class='total'>"+pr+"</div>"
     }
     refresh()
     

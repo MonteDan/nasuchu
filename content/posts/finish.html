@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Metoda dopravy</h2>
+    <br>
+    <input type="radio" id="louny" name="mesto"> Louny
+    <br>
+    <input type="radio" id="teplice" name="mesto"> Teplice a okolí +50kč
+    <br>
+    <a href="./checkout.html">Změnit údaje</a>
+    <button onclick="send()">Odeslat objednávku</button>
+    <div id="error"></div>
+    
+
+
+
+
+
+    <div id="container"></div>
+  </div>
+  
+
+  <script>
+
+    const names = JSON.parse(Cookies.get("names"));
+    var container = document.getElementById("container");
+
+    Object.keys(names).map(function (key, value) {
+        container.innerHTML += "<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+names[key][0].toString()+"</h3><br><h3>Cena: "+names[key][2]*names[key][0].toString()+',-</h3><img src="'+names[key][1].toString()+'.png" alt="Obrazek"></div>'
+        return
+    })
+
+    function send() {
+      let louny = document.getElementById("louny");
+      let teplice = document.getElementById("teplice");
+
+      if (teplice.checked == false && louny.checked == false) {
+        let error = document.getElementById("error");
+        error.innerHTML = "Musíte zvolit možnost";
+        return
+      }
+
+      let price = 0
+      console.log(names)
+      Object.keys(names).map(function (key, value) {
+        price += names[key][0]*names[key][2];
+        console.log(price)
+        return
+      })
+
+      if (teplice.checked == true) {
+        price += 50;
+      }
+      else {
+        price = price
+      }
+
+      console.log(names, price);
+      window.location.href = "./thanks.html";
+      return
+    }
+  </script>
+</body>
+</html>
