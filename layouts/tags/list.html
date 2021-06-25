@@ -1,0 +1,22 @@
+{{partial "header.html" .}}
+<div class="row">
+  {{ range .Paginator.Pages }}
+  <div class="col s6 l3">
+    <div class="card hoverable">
+      <div class="card-content">
+        {{ range (.GetTerms "tags") }}
+        <a href="{{ .Permalink }}" class="chip cyan lighten-3 hoverable">{{ .LinkTitle }}</a><br>
+        {{end}}
+      <i>{{.Params.priceshown}}Kč</i><br>
+      <p>{{.Content}}</p>
+      <button type="button" name="button" class="button" onClick="add({{.Params.Title}})">Přidat do košíku</button>
+    </div>
+    <div class="card-action">
+      <a href="{{.Permalink}}">{{.Permalink}}</a>
+    </div>
+  </div>
+</div>
+{{ end }}
+</div>
+{{ template "_internal/pagination.html" . }}
+{{ partial "footer.html" . }}
