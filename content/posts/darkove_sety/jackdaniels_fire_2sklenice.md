@@ -1,5 +1,5 @@
 ---
-title: "Jack Daniel's Fire 0,7l 35% + 2 skleničky"
+title: "Jack Daniels Fire 0,7l 35% + 2 skleničky"
 image: "https://imgur.com/CLWuACX"
 price: 649
 priceshown: "649,00"

@@ -7,5 +7,17 @@
 </head>
 <body>
   <h1>Děkujeme za vaší objednávku</h1>
+  <h3>Nakoupeno:</h3>
+  <div id="container"></div>
+
+  <script>
+    const names = JSON.parse(Cookies.get("cart"));
+    var container = document.getElementById("container");
+
+    Object.keys(names).map(function (key, value) {
+        container.innerHTML += "<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+names[key][0].toString()+"</h3><br><h3>Cena: "+names[key][2]*names[key][0].toString()+',-</h3><img src="'+names[key][1].toString()+'.png" alt="Obrazek"></div>'
+        return
+    })
+  </script>
 </body>
 </html>

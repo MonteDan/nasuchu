@@ -8,16 +8,16 @@
   */
   
   try {
-    var dict = JSON.parse(Cookies.get("names"));
+    var dict = JSON.parse(Cookies.get("cart"));
   }
   catch(err) {
-    Cookies.set("names", JSON.stringify({}))
-    var dict = JSON.parse(Cookies.get("names"));
+    Cookies.set("cart", JSON.stringify({}))
+    var dict = JSON.parse(Cookies.get("cart"));
   }
 
   function add(title, pic, price, priceshown){
 
-    var dict = JSON.parse(Cookies.get("names"));
+    var dict = JSON.parse(Cookies.get("cart"));
     
     try {
       dict[title][0] += 1;
@@ -26,7 +26,7 @@
       dict[title] = [1, pic, price, priceshown];
     }
 
-    Cookies.set("names", JSON.stringify(dict));
+    Cookies.set("cart", JSON.stringify(dict));
     console.log(document.cookie)
   }
 </script>

@@ -25,7 +25,7 @@
     <br>
     <input type="tel" name="tel" id="telefon" onchange='dict.telefon = document.getElementById("telefon").value;' placeholder="Telefon">
     <br>
-    <a href="./cart.html">Vrátit se do košíku</a>
+    <button onclick="save();window.location.href = '/posts/cart.html'">Vrátit se do košíku</button>
     <button id="submit" onclick="console.log(dict); setCookies(); window.location.href='./finish.html';">Pokračovat k expedici</button>
     <br>
 
@@ -34,7 +34,7 @@
 
   <script>
     try {
-      var dict = JSON.parse(Cookies.get("info"));
+      var dict = JSON.parse(Cookies.get("adresa"));
     }
     catch(err) {
       Cookies.set("info", JSON.stringify({
@@ -46,14 +46,26 @@
         mesto: "",
         telefon: ""
       }))
-      var dict = JSON.parse(Cookies.get("info"));
+      var dict = JSON.parse(Cookies.get("adresa"));
+    }
+
+    document.getElementById("krestnyjmeno").value = dict.krestnyjmeno
+    document.getElementById("prijmeni").value = dict.prijmeni
+    document.getElementById("adresa").value = dict.adresa
+    document.getElementById("byt").value = dict.byt
+    document.getElementById("psc").value = dict.psc
+    document.getElementById("mesto").value = dict.mesto
+    document.getElementById("telefon").value = dict.telefon
+
+    function save() {
+      Cookies.set("adresa", JSON.stringify(dict));
     }
 
     function setCookies() {
       Cookies.set("info", JSON.stringify(dict))
     }
 
-    const names = JSON.parse(Cookies.get("names"));
+    const names = JSON.parse(Cookies.get("cart"));
     var container = document.getElementById("container");
 
     Object.keys(names).map(function (key, value) {

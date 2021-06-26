@@ -30,7 +30,7 @@
 
   <script>
 
-    const names = JSON.parse(Cookies.get("names"));
+    const names = JSON.parse(Cookies.get("cart"));
     var container = document.getElementById("container");
 
     Object.keys(names).map(function (key, value) {
@@ -62,6 +62,8 @@
       else {
         price = price
       }
+
+      Cookies.set("adresa", JSON.stringify({}))
 
       console.log(names, price);
       window.location.href = "./thanks.html";

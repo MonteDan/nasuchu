@@ -31,15 +31,15 @@
     var container = document.getElementById("container")
     
     try {
-      var dict = JSON.parse(Cookies.get("names"));
+      var dict = JSON.parse(Cookies.get("cart"));
     }
     catch(err) {
-      Cookies.set("names", JSON.stringify({}))
-      var dict = JSON.parse(Cookies.get("names"));
+      Cookies.set("cart", JSON.stringify({}))
+      var dict = JSON.parse(Cookies.get("cart"));
     }
 
     function add(title, pic, price, priceshown){
-      dict = JSON.parse(Cookies.get("names"));
+      dict = JSON.parse(Cookies.get("cart"));
       
       try {
         dict[title][0] += 1;
@@ -48,11 +48,11 @@
         dict[title] = [1, pic, price, priceshown];
       }
       refresh()
-      Cookies.set("names", JSON.stringify(dict));
+      Cookies.set("cart", JSON.stringify(dict));
     }
 
     function dec(title){
-      dict = JSON.parse(Cookies.get("names"));
+      dict = JSON.parse(Cookies.get("cart"));
       if (dict[title][0] == 0) {
         dict[title][0] = 0
       }
@@ -60,19 +60,18 @@
         dict[title][0] -= 1;
       }
       refresh();
-      Cookies.set("names", JSON.stringify(dict));
+      Cookies.set("cart", JSON.stringify(dict));
     }
 
     function refresh() {
       container.innerHTML = ""
-      Object.keys(names).map(function (key, value) {
-        container.innerHTML += "<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`
-        console.log("<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'"'+","+'"'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`)
+      Object.keys(dict).map(function (key, value) {
+        container.innerHTML += "<div class='product'>"+"<h1>"+key.toString()+"</h1>"+"<br><h3>Počet: "+dict[key][0].toString()+"</h3><br><h3>Cena za kus: "+dict[key][3].toString()+"</h3><br><h3>Cena: "+dict[key][2]*dict[key][0].toString()+',-</h3><img src="'+dict[key][1].toString()+'.png" alt="Obrazek">'+`<button onClick='add(`+'"'+key+'","'+dict[key][1].toString()+'"'+","+dict[key][2]+","+'"'+dict[key][3]+`")'>+</button>`+`<button onClick='dec("`+key+`")'>-</button></div>`
         return
       })
       let pr = 0;
-      Object.keys(names).map(function (key, value) {
-        pr += dict[key][0]*dict[key][1]
+      Object.keys(dict).map(function (key, value) {
+        pr += dict[key][0]*dict[key][2]
       })
       container.innerHTML += "<div class='total'>"+pr+"</div>"
     }
