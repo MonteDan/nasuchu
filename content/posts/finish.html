@@ -8,6 +8,11 @@
   <title>Document</title>
 </head>
 <body>
+  <nav>
+    <button onclick="window.location.href = '/'">Domů</button>
+    <button onclick="window.location.href = '/tags/'">Produkty</button>
+    <button onclick="window.location.href = '/posts/cart.html'">Košík</button>
+  </nav>
   <div class="container">
     <h2>Metoda dopravy</h2>
     <br>
@@ -15,7 +20,7 @@
     <br>
     <input type="radio" id="teplice" name="mesto"> Teplice a okolí +50kč
     <br>
-    <a href="./checkout.html">Změnit údaje</a>
+    <button onclick="window.location.href='/posts/checkout.html'">Změnit údaje</button> 
     <button onclick="send()">Odeslat objednávku</button>
     <div id="error"></div>
     
@@ -66,7 +71,7 @@
       Cookies.set("adresa", JSON.stringify({}))
 
       console.log(names, price);
-      window.location.href = "./thanks.html";
+      window.location.href = "/posts/thanks.html";
       return
     }
   </script>
