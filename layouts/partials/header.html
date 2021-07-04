@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <script src="jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <title>Nasuchu.com</title>
+    <style>
+      .card {
+        min-height: 800px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
 
-  <title>Nasuchu.com</title>
-  <style>
-    .card {
-      min-height: 800px;
-    }
-  </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-</head>
-
-<body>
-  <nav>
-    Tohle je navigace
-
-    <button onclick="window.location.href = '/'">Domů</button>
-    <button onclick="window.location.href = '/tags/'">Produkty</button>
-    <button onclick="window.location.href = '/posts/cart.html'">Košík</button>
-    
-  </nav>
+  <body>
+    <nav>
+      <button class="home" onclick="window.location.href = '/'">Domů</button>
+      <button class="products" onclick="window.location.href = '/tags/'">
+        Produkty
+      </button>
+      <button class="cart" onclick="window.location.href = '/posts/cart.html'">
+        Košík
+      </button>
+    </nav>
+  </body>
+</html>
