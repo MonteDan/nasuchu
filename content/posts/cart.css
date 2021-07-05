@@ -5,7 +5,7 @@
     padding: 0;
   }
   #container {
-    background-color: #f8f4f4;
+    background-color: #f5f5f5;
     position: relative;
     width: 100vw;
     margin-left: 0;
@@ -21,8 +21,9 @@
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 3vw;
+    padding-bottom: 3vw;
     width: 85vw;
-    border-radius: 1%;
+    border-radius: 1vw 1vw 1vw 1vw;
     filter: drop-shadow(0px 0px 2px #202020);
   }
 
@@ -30,6 +31,9 @@
     margin: 0;
     order: 2;
     width: 75%;
+    font-family: "roboto";
+    font-size: 5vw;
+    color: #0a2f61;
   }
   .product img {
     order: 1;
@@ -40,18 +44,104 @@
     width: 100%;
     text-align: right;
     margin: 0;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+    color: #f00000;
+    font-weight: 500;
+    letter-spacing: 0.08vw;
+    font-family: "roboto";
   }
   .count {
     order: 5;
     margin: 0;
+    vertical-align: middle;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 3vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.7vw;
+    font-family: "roboto";
+    font-weight: 400;
   }
   .plus {
-    order: 4;
+    order: 6;
+    border-radius: 100%;
+    border: none;
+    background-color: #0094e7;
+    width: 4vw;
+    height: 4vw;
+    color: white;
+    font-size: 3vw;
+    transition: 0.15s;
+  }
+  .plus:hover {
+    background-color: #0081d2;
   }
   .minus {
-    order: 6;
+    order: 4;
+    border-radius: 100%;
+    background-color: #c6c6c6;
+    width: 4vw;
+    height: 4vw;
+    color: white;
+    font-size: 3vw;
+    padding: 0;
+    vertical-align: middle;
+    font-weight: 500;
+    border: none;
+    line-height: -1;
+    transition: 0.15s;
+  }
+  .minus:hover {
+    background-color: #ababab;
   }
   .pricetag {
     display: none;
+  }
+  .footer {
+    position: fixed;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    filter: drop-shadow(0px 0px 1px #555555);
+  }
+  .castka {
+    height: 100%;
+    width: 12%;
+    font-size: 2.2vw;
+    font-family: "roboto";
+  }
+  #cena {
+    color: #8caf00;
+  }
+  .continue {
+    height: 100%;
+    width: 35%;
+    margin-right: 1vw;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    font-family: "roboto";
+    color: white;
+    background: #c5c5c5;
+    font-size: 2.5vw;
+    border: none;
+    filter: drop-shadow(0px 2px 3px #606060);
+  }
+  .checkout {
+    height: 100%;
+    width: 45%;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    font-family: "roboto";
+    color: white;
+    font-size: 2.5vw;
+    border: none;
+    filter: drop-shadow(0px 2px 3px #606060);
+    background-color: #a1c900;
   }
 }
