@@ -124,7 +124,8 @@
         Object.keys(dict).map(function (key, value) {
           pr += dict[key][0] * dict[key][2];
         });
-        document.getElementById("cena").innerHTML = pr.toFixed(2) + " Kč";
+        document.getElementById("cena").innerHTML =
+          pr.toFixed(2) + " Kč" + screen.width;
       }
       refresh();
     </script>
