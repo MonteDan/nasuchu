@@ -53,7 +53,7 @@
       {});
       */
       var container = document.getElementById("container");
-
+      Cookies.set("empty", JSON.stringify({}));
       try {
         var dict = JSON.parse(Cookies.get("cart"));
       } catch (err) {
@@ -86,8 +86,10 @@
 
       function refresh() {
         container.innerHTML = "";
-        if (dict == {}) {
-          container.innerHTML = "<div class='empty'>Košík je prázdný</div>";
+        console.log();
+        if (Object.keys(dict).length == 0) {
+          console.log("empty");
+          container.innerHTML += "<div class='empty'>Košík je prázdný</div>";
         }
         Object.keys(dict).map(function (key, value) {
           container.innerHTML +=

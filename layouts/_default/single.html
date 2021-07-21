@@ -1,7 +1,268 @@
-{{partial "header.html" .}}
-  <img src="{{.Params.image}}.png" alt="">
-  {{.Title}}
-  {{.Content}}
-  {{.Params.priceshown}},-
-  <button onClick="add({{.Title}},{{.Params.image}},{{.Params.price}},{{.Params.priceshown}})">Přidat do košíku</button>
-{{ partial "footer.html" . }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <title>Nasuchu.com</title>
+    <style>
+      .card {
+        min-height: 800px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Montserrat?query=montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Arimo?query=arimo"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="single.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <button class="home" onclick="window.location.href = '/'">Domů</button>
+      <button class="products" onclick="window.location.href = '/tags/'">
+        Produkty
+      </button>
+      <button class="cart" onclick="window.location.href = '/posts/cart.html'">
+        Košík
+      </button>
+    </nav>
+    <div id="container">
+      <img src="{{.Params.image}}.png" alt="" />
+      <h3 class="title">{{.Title}}</h3>
+      <div class="pricecont">
+        <div class="price">Cena:</div>
+        <div class="price_number">{{.Params.priceshown}} Kč</div>
+      </div>
+      <div class="count_container">
+        <div class="mnozstvi">Množství:</div>
+        <div class="button_set">
+          <button class="minus" onclick="dec()">
+            <i id="minusic" class="bi bi-dash"></i>
+          </button>
+          <div id="count"></div>
+          <button class="plus" onclick="inc()">
+            <i id="plusic" class="bi bi-plus"></i>
+          </button>
+        </div>
+      </div>
+      <button
+        class="bigboi"
+        onClick="add({{.Title}},{{.Params.image}},{{.Params.price}},{{.Params.priceshown}})"
+      >
+        Přidat do košíku
+      </button>
+      <div class="share_container">
+        <div class="label">SDÍLET PRODUKT</div>
+        <a id="fb" href=""><i id="facebook" class="bi bi-facebook"></i></a>
+      </div>
+
+      <h5>Popis</h5>
+      <div class="content">{{.Content}}</div>
+    </div>
+
+    <style>
+      @media (max-width: 1200px) {
+        #container {
+          padding-left: 5vw;
+          padding-right: 5vw;
+          padding-top: 5vw;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+        h3 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 7vw;
+          margin-bottom: 7vw;
+        }
+        .pricecont,
+        .count_container {
+          display: flex;
+          margin-bottom: 5vw;
+          height: auto;
+        }
+        .price,
+        .mnozstvi {
+          font-family: "Arimo", sans-serif;
+          font-weight: 600;
+          padding-right: 7vw;
+          padding-top: 1vw;
+          font-size: 3vw;
+        }
+        .mnozstvi {
+          line-height: 10vw;
+          height: 10vw;
+          padding-top: 0;
+        }
+        .price_number {
+          font-family: "Arimo", sans-serif;
+          flex: 5;
+          font-weight: 500;
+          font-size: 4.5vw;
+        }
+        .button_set {
+          background: white;
+          border: 0.3vw solid black;
+          height: 10vw;
+          display: flex;
+          border-radius: 5px 5px 5px 5px;
+        }
+        .minus,
+        .plus {
+          height: 9vw;
+          background: white;
+          width: 10vw;
+          border: none;
+          vertical-align: middle;
+        }
+        .plus:active,
+        .minus:active,
+        .plus:focus,
+        .minus:focus,
+        .plus:hover,
+        .minus:hover {
+          background: white;
+        }
+        .plus:hover #plusic {
+          color: black;
+        }
+        .minus:hover #minusic {
+          color: black;
+        }
+        .minus {
+          border-radius: 5px 0px 0px 5px;
+        }
+        .plus {
+          border-radius: 0px 5px 5px 0px;
+        }
+        #count {
+          font-family: "Arimo", sans-serif;
+          height: 9.8vw;
+          width: 15vw;
+          margin-top: -1px;
+          text-align: center;
+          line-height: 10vw;
+          font-size: 4.3vw;
+          border-left: 0.3vw solid black;
+          border-right: 0.3vw solid black;
+        }
+        button i {
+          font-size: 5vw;
+          color: #a8a8a8;
+          transition-duration: 350ms;
+        }
+        .bigboi {
+          font-family: "Arimo", sans-serif;
+          font-weight: 600;
+          background: #ad3535;
+          transition-duration: 300ms;
+          color: white;
+          font-size: 3.5vw;
+          height: 9vw;
+          line-height: 9vw;
+          width: 90vw;
+          border: none;
+          margin-bottom: 6vw;
+        }
+        .bigboi:hover {
+          background: #f15a5a;
+        }
+        #facebook {
+          font-size: 4vw;
+          color: #caced0;
+          transition-duration: 300ms;
+        }
+        #fb:hover #facebook {
+          color: #3b5998;
+        }
+        #fb {
+          height: 4vw;
+          width: 4vw;
+          margin-top: -3vw;
+          margin-left: 10vw;
+        }
+        h5 {
+          margin-top: 6vw;
+        }
+        .share_container {
+          display: flex;
+          height: 4vw;
+          align-items: center;
+        }
+        .label {
+          font-family: "Arimo", sans-serif;
+          font-size: 2.5vw;
+          color: #a8a8a8;
+          line-height: 4vw;
+          letter-spacing: 2px;
+          height: 4vw;
+          font-weight: 500;
+        }
+      }
+    </style>
+    <script>
+      /*
+  var cooks = document.cookie.split(";")
+    .map(cookie => cookie.split("="))
+    .reduce((accumulator, [key, value]) =>
+      ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }), 
+  {});
+  */ //https://www.facebook.com/sharer.php?u=
+      try {
+        var dict = JSON.parse(Cookies.get("cart"));
+      } catch (err) {
+        Cookies.set("cart", JSON.stringify({}));
+        var dict = JSON.parse(Cookies.get("cart"));
+      }
+      var count = 1;
+      var countField = document.getElementById("count");
+      countField.innerHTML = count.toString();
+
+      document.getElementById("fb").href =
+        "https://www.facebook.com/sharer.php?u=" + window.location.href;
+
+      function inc() {
+        count += 1;
+        countField.innerHTML = count.toString();
+      }
+      function dec() {
+        if (count > 1) {
+          count -= 1;
+          countField.innerHTML = count.toString();
+        } else {
+          return;
+        }
+      }
+
+      function add(title, pic, price, priceshown) {
+        var dict = JSON.parse(Cookies.get("cart"));
+
+        try {
+          dict[title][0] += count;
+        } catch (err) {
+          dict[title] = [count, pic, price, priceshown];
+        }
+
+        Cookies.set("cart", JSON.stringify(dict));
+        console.log(document.cookie);
+      }
+    </script>
+  </body>
+</html>
