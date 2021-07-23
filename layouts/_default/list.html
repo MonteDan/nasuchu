@@ -1,15 +1,17 @@
 {{partial "header.html" .}}
 <div class="row">
   {{ range .Paginator.Pages }}
-    <a href="{{.Permalink}}">
-      <h1>{{.Title}}</h1>
-      <img src="{{.Params.image}}.png" alt="">
-      <p>
-        {{.Params.priceshown}}
-      </p>
-      
-    </a>
-    <button onClick="add({{.Title}},{{.Params.image}},{{.Params.price}},{{.Params.priceshown}})">Přidat do košíku</button>
-  {{ end }}
-  {{ template "_internal/pagination.html" . }}
-{{ partial "footer.html" . }}
+  <a href="{{.Permalink}}">
+    <h1>{{.Title}}</h1>
+    <img src="{{.Params.image}}.png" alt="" />
+    <p>{{.Params.priceshown}}</p>
+  </a>
+
+  <button
+    onClick="add({{.Title}},{{.Params.image}},{{.Params.price}},{{.Params.priceshown}})"
+  >
+    Přidat do košíku
+  </button>
+  {{ end }} {{ template "_internal/pagination.html" . }} {{ partial
+  "footer.html" . }}
+</div>
