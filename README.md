@@ -1,1 +1,1 @@
-Neporušuji žádný copyright, vývoje se účastní i majitel nasuchu.com
+Neporušuji žádný copyright atd., vývoj řídí majitel nasuchu.com
